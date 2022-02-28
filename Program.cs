@@ -1,5 +1,4 @@
 ﻿using static System.Console;
-using System;
 using D_and_O.src.Entities;
 
 namespace dotnetRPG
@@ -8,15 +7,14 @@ namespace dotnetRPG
     {
         static void Main(string[] args)
         {
-            Arus firstHero = new Arus("Amon", 24, "Rogue");
+            Hero firstHero = new Hero("Amon", 24, "Knight");
+            Wizard firstWizard = new Wizard("Yennefer", 24, "White wizard");
 
-            WriteLine($@" 
-            Name: {firstHero.Name}
-            Level: {firstHero.Level}
-            Type: {firstHero.HeroType}
-            ");
-
-            WriteLine(firstHero);
+            firstHero.ToString();
+            firstWizard.ToString();
+            
+            WriteLine(firstWizard.Attack());
+            WriteLine(firstHero.Attack());
         }
     }
 }
