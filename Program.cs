@@ -9,6 +9,14 @@ namespace dotnetRPG
         static void Main(string[] args)
         {
             Arus firstHero = new Arus("Amon", 24, "Rogue");
+
+            WriteLine($@" 
+            Name: {firstHero.Name}
+            Level: {firstHero.Level}
+            Type: {firstHero.HeroType}
+            ");
+
+            WriteLine(firstHero);
         }
     }
 }

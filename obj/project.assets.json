@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\erika\\OneDrive\\Área de Trabalho\\Git\\OOP-RPG-game-in-C-\\RPG.csproj",
+      "projectUniqueName": "C:\\Users\\erika\\OneDrive\\Área de Trabalho\\Git\\Dungeons_And_Objects\\RPG.csproj",
       "projectName": "RPG",
-      "projectPath": "c:\\Users\\erika\\OneDrive\\Área de Trabalho\\Git\\OOP-RPG-game-in-C-\\RPG.csproj",
+      "projectPath": "C:\\Users\\erika\\OneDrive\\Área de Trabalho\\Git\\Dungeons_And_Objects\\RPG.csproj",
       "packagesPath": "C:\\Users\\erika\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\erika\\OneDrive\\Área de Trabalho\\Git\\OOP-RPG-game-in-C-\\obj\\",
+      "outputPath": "C:\\Users\\erika\\OneDrive\\Área de Trabalho\\Git\\Dungeons_And_Objects\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\erika\\AppData\\Roaming\\NuGet\\NuGet.Config",

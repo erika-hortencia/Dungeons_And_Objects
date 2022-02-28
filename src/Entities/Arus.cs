@@ -2,15 +2,21 @@ namespace D_and_O.src.Entities
 {
     public class Arus
     {
-        public string name;
-        public int level;
-        public string heroType;
+        public string Name;
+        public int Level;
+        public string HeroType;
 
-        public Arus( string name, int level, string heroType)
+        public Arus( string Name, int Level, string HeroType)
         {
-            this.name = name;
-            this.level = level;
-            this.heroType = heroType;
+            this.Name = Name;
+            this.Level = Level;
+            this.HeroType = HeroType;
         }
+
+        public override string ToString()
+        {
+            return this.Name + " " + this.Level + " " + this.HeroType;
+        }
+
     }
 }
