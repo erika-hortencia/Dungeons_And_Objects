@@ -27,7 +27,7 @@ namespace D_and_O.src.Entities
 
         public virtual string Attack()
         {
-            return this.Name + " cast a spell";
+            return this.Name + " cast a spell!";
         }
 
         public string Attack(int Bonus)

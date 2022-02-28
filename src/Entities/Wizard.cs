@@ -8,7 +8,7 @@ namespace D_and_O.src.Entities
 
         public override string Attack()
         {
-            return this.Name + " attacked with sword";
+            return this.Name + " attacked with sword!";
         }
     }
 }

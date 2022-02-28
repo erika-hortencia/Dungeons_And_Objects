@@ -7,7 +7,7 @@ namespace dotnetRPG
     {
         static void Main(string[] args)
         {
-            Hero firstHero = new Hero("Amon", 24, "Knight");
+            Arus firstHero = new Arus("Amon", 24, "Knight");
             Wizard firstWizard = new Wizard("Yennefer", 24, "White wizard");
 
             firstHero.ToString();
