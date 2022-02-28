@@ -1,6 +1,6 @@
 ﻿using static System.Console;
 using System;
-using OOP_RPG_game_in_C_.src.Entities;
+using D_and_O.src.Entities;
 
 namespace dotnetRPG
 {
@@ -8,7 +8,7 @@ namespace dotnetRPG
     {
         static void Main(string[] args)
         {
-
+            Arus firstHero = new Arus("Amon", 24, "Rogue");
         }
     }
 }
