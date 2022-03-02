@@ -10,5 +10,14 @@ namespace D_and_O.src.Entities
         {
             return this.Name + " attacked with sword!";
         }
+
+        public string Attack(int Bonus)
+        {
+            if (Bonus > 6)
+            {
+                return this.Name + "cast a spell with bonus " + Bonus;    
+            }
+            
+        }
     }
 }

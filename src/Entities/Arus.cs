@@ -1,11 +1,13 @@
 namespace D_and_O.src.Entities
 
 {
-    public class Arus : Hero
+    public class Knight : Hero
     {
-        public Arus(string Name, int Level, string HeroType) : base(Name, Level, HeroType)
+        public Knight(string Name, int Level, string HeroType) : base(Name, Level, HeroType)
         {
-
+            this.Name = Name;
+            this.Level = Level;
+            this.HeroType = HeroType;
         }
     }
 }
