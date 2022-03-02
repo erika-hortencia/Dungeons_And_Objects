@@ -16,6 +16,7 @@ namespace dotnetRPG
             WriteLine(firstWizard.Attack());
             WriteLine(firstHero.Attack());
             WriteLine(firstWizard.Attack(25));
+            WriteLine(firstWizard.Attack(5));
         }
     }
 }

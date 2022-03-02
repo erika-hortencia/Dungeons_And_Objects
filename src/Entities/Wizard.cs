@@ -15,7 +15,11 @@ namespace D_and_O.src.Entities
         {
             if (Bonus > 6)
             {
-                return this.Name + "cast a spell with bonus " + Bonus;    
+                return this.Name + " cast a super effective spell with " + Bonus + " bonus";    
+            }
+            else
+            {
+                return this.Name + " cast a weak spell with " + Bonus + " bonus";
             }
             
         }
